@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121184447012",
+    "project_id": "uk-flix",
+    "storage_bucket": "uk-flix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121184447012:android:8d5b412c4c4c85548686b1",
+        "android_client_info": {
+          "package_name": "com.gonstrom.ukflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121184447012-80dtf1bchkmr58ujjtbc9serk19ppcji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCf5smgSrFtsCDbHVTb_LeWObJ6Bv5meE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121184447012-80dtf1bchkmr58ujjtbc9serk19ppcji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
