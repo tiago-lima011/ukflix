@@ -1,8 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'com.google.android.gms.ads.MobileAds';
 
 void main() {
   runApp(new MyApp());
+}
+
+class MainActivity : AppCompatActivity() {
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_main)
+
+    MobileAds.initialize(this) {}
+  }
 }
 
 class MyApp extends StatelessWidget {
